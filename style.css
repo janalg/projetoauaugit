@@ -100,38 +100,39 @@
   }
 
   @media(max-width : 600px){
-    .sidebar{
-      height: auto;
-      width: 70px;
-      left: 0;
-      margin: 100px 0;
-    }
-    header,#btn,#cancel{
-      display: none;
-    }
-    span{
-      position: absolute;
-      margin-left: 23px;
-      opacity: 0;
+    .sidebar {
       visibility: hidden;
     }
-    .sidebar a{
-      height: 60px;
-    }
-    .sidebar a i{
-      margin-left: -10px;
-    }
-    a:hover {
-      width: 200px;
-      background: inherit;
-    }
-    .sidebar a:hover span{
-      opacity: 1;
-      visibility: visible;
+    label #btn,label #cancel{
+      visibility: hidden;
+      transition: all  ease;
     }
   }
 /* --------------------------SIDEBAR-------------------------------- */
+/* --------------------------NAV-------------------------------- */
+.nav {
+    display: block;
+    height: 65px;
+    width: 100%;
+    color: #9EC5FF;
+    line-height: 65px;
+    padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    transition: all  ease;
+    font-size: 20px;
+    letter-spacing: 2PX;
+    
+    
+  }
 
+  @media(min-width : 590px) {
+    .nav {
+      visibility: hidden;
+      
+    }
+  }
+
+/* --------------------------NAV-------------------------------- */
 
 
 /* ----------------------------GRID--------------------------------- */
