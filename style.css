@@ -111,18 +111,14 @@
 /* --------------------------SIDEBAR-------------------------------- */
 /* --------------------------NAV-------------------------------- */
 .nav {
-    display: block;
-    height: 65px;
+    display: flex;
     width: 100%;
     color: #9EC5FF;
     line-height: 65px;
-    padding-left: 30px;
     font-family: 'Open Sans', sans-serif;
     transition: all  ease;
     font-size: 20px;
-    letter-spacing: 2PX;
-    
-    
+    justify-content: space-around;
   }
 
   @media(min-width : 590px) {
