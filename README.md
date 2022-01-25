@@ -1,0 +1,2 @@
+# projetoauaugit
+Exercicio de aprendizagem
