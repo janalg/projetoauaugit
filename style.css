@@ -242,7 +242,7 @@ header > h1 {
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     background-color: #FFEBC4;       
 }
 
